@@ -1,0 +1,131 @@
+.top_b {
+    height: 400px;
+    background: #DFE3E7;
+    text-align: center;
+}
+
+.ibox {
+    width: 1200px;
+    margin: 0px auto 50px auto;
+}
+
+.ibox_h3 {
+    text-align: center;
+    height: 140px;
+}
+
+.aqcp {
+    background: url(../images/page2/ibox_h3_bg1.png) center center no-repeat;
+}
+
+.yycp {
+    background: url(../images/page2/ibox_h3_bg2.png) center center no-repeat;
+}
+
+.ptcp {
+    background: url(../images/page2/ibox_h3_bg3.png) center center no-repeat;
+}
+
+.ydcp {
+    background: url(../images/page2/ibox_h3_bg4.png) center center no-repeat;
+}
+
+.rjdz {
+    background: url(../images/page2/ibox_h3_bg5.png) center center no-repeat;
+}
+
+.xmtz {
+    background: url(../images/page2/ibox_h3_bg6.png) center center no-repeat;
+}
+
+
+
+.ibox_title {
+    height: 50px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ibox_title a {
+    font-size: 18px;
+    display: inline-block;
+    margin: 0px 40px;
+    color: #262626;
+}
+
+.ibox_title a:hover, .ibox_title a.hover {
+    border-bottom: #73B7FE 2px solid;
+    color: #0088D1;
+}
+
+.cp_box {
+}
+
+.cp_box, .about_box {
+    width: 1200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.cm_box {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom: #ECECEC 1px solid;
+    text-align: center;
+}
+
+.cp_box ul {
+    width: 1300px;
+}
+
+.cp_box ul li {
+    width: 390px;
+    height: 280px;
+    float: left;
+    margin-right: 15px;
+}
+
+.cp_box ul li p {
+    line-height: 175%;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.bg_h {
+    background: #FE6869;
+}
+
+.bg_l {
+    background: #16A3FF;
+}
+
+.bg_z {
+    background: #5263C5;
+}
+
+.bg_c {
+    background: #EA4405;
+}
+
+.bg_y {
+    background: #FFB12A;
+}
+
+.bg_f {
+    background: #F28390;
+}
+
+.bg_j {
+    background: #F36D32;
+}
+
+.bg_d {
+    background: #2ACCB7;
+}
+
+.bg_dl {
+    background: #00BDC9;
+}
+

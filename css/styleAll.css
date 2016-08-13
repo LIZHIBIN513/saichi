@@ -1,0 +1,764 @@
+body, h1, h2, h3, h4, h5, p, pre, blockquote, dl, dt, dd, ul, ol, li, form, fieldset, legend, input, textarea, button, th, td {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+header, nav, article, footer, figure, section, figcaption {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: none;
+}
+
+caption, th {
+    font-weight: normal;
+}
+
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
+code, kbd, pre, samp, tt {
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* 使用等宽字体 */
+ul, ol {
+    list-style: none outside;
+}
+
+/* outside重置IE6,7缩进 */
+caption, th {
+    text-align: left;
+}
+
+q:before, q:after {
+    content: '';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+select, input, button, textarea {
+    font-size: 100%;
+}
+
+/* 使表单元素能继承父级字体大小 */
+/*修复IE6连续英文不折行导致页面布局崩溃*/
+body {
+    _word-break: break-all;
+}
+
+/* 专有属性修复IE7，IE8浏览器强制缩放图片失真 */
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+/* 默认样式 "Microsoft YaHei" */
+body {
+    font: 14px/1.5 "Microsoft YaHei", "微软雅黑", 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, "Microsoft JhengHei", "微軟正黑體";
+    background: #F9F9F9;
+}
+
+html, legend {
+    color: #333;
+}
+
+a {
+    color: #0088D1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+/*全局的样式*/
+
+
+/*header 开始*/
+.header {
+    /*height: 71px;*/
+    width: 100%;
+    background: url("../images/head_bg.png") repeat-x;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+
+}
+.classname {
+    height: 100px;
+    text-align: center;
+    margin-top: -70px;
+}
+
+.head {
+    height: 71px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.logo {
+    width: 155px;
+    height: 53px;
+    float: left;
+    margin-top: 9px;
+}
+
+.logo a {
+    display: block;
+    text-indent: -6000px;
+    background: url(../images/logo.png) no-repeat;
+    width: 155px;
+    height: 53px;
+}
+
+.more {
+    float: right;
+    margin-left: 20px;
+}
+
+.more p {
+    height: 24px;
+    line-height: 24px;
+    width: 100px;
+    border: #D2D2D1 1px solid;
+    margin-top: 24px;
+    background: url(../images/more_bg.png) 92px center no-repeat;
+    font-size: 12px;
+    color: #333;
+    display: block;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.more p span {
+    display: none;
+}
+
+.more p:hover span {
+    display: block;
+    background: #fff;
+    border: #D2D2D1 1px solid;
+    width: 110px;
+    margin-left: -11px;
+}
+
+.more p a {
+    padding-left: 10px;
+    color: #333;
+}
+
+.more p a:hover {
+    color: red;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    height: 71px;
+    line-height: 71px;
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    padding: 0px 20px;
+    font-size: 16px;
+    color: #262626;
+}
+
+.menu li a:hover {
+    color: #F41313;
+}
+
+.menu li.hover a {
+    background: url(../images/menu_li_hover_bg.png) center bottom no-repeat;
+    color: #F41313;
+}
+
+/*header 结束*/
+
+/*右边锚链接  开始*/
+#right_nav {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 10px;
+    top: 40%;
+    z-index: 999;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+#right_nav li {
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+#right_nav a {
+    width: 94px;
+    height: 30px;
+    text-align: center;
+    display: block;
+    line-height: 27px;
+    background: url(../images/right_nav.png) no-repeat;
+    color: #2A2A2A;
+}
+
+#right_nav .active a, #right_nav a:hover {
+    background: url(../images/right_nav_hover.png) no-repeat;
+    color: #fff;
+}
+
+/*右边锚链接  结束*/
+
+/*fullpage主题部分  开始*/
+#sc {
+    margin-top: 71px;
+}
+
+.slide-main {
+    height: 890px;
+    position: relative;
+
+}
+
+.prev:hover, .next:hover, .nav-main a:hover, .nav-main a.cur {
+    opacity: 1;
+    -moz-opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.bg_a {
+    background: url(../images/top_bg.jpg) center top no-repeat;
+}
+
+.slide-box, .slide {
+    display: block;
+    width: 100%;
+    height: 890px;
+    overflow: hidden;
+}
+
+.slide-box {
+    position: relative;
+
+}
+
+.slide {
+    display: none;
+    padding-top: 0px;
+    position: relative;
+    position: absolute;
+    z-index: 8;
+}
+
+.slide a {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.obj-a, .obj-b, .obj-c, .obj-d, .obj-e, .obj-f {
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+}
+
+.obj-a, .obj-b {
+    width: 952px;
+    margin-left: -476px;
+    text-align: center;
+}
+
+.obj-a {
+    display: block;
+    height: 352px;
+    top: 100px;
+}
+
+.obj-b {
+    top: 600px;
+    height: 50px;
+}
+
+.obj-c {
+    display: block;
+    height: 582px;
+    top: 0;
+    margin-left: -540px;
+}
+
+.obj-d {
+    top: 228px;
+    height: 164px;
+}
+
+.obj-d p {
+    display: block;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #fff;
+    clear: both;
+}
+
+.obj-e {
+    width: 366px;
+    height: 170px;
+    margin-left: -460px;
+    top: 223px;
+    z-index: 12;
+}
+
+.obj-f {
+    width: 692px;
+    height: 394px;
+    top: 158px;
+    margin-left: -180px;
+}
+
+/*第二屏  开始*/
+.bg_b {
+    min-height: 890px;
+
+}
+
+.h2_cp {
+    background: url(../images/classname1.png) center center no-repeat;
+}
+
+.xbox {
+    /*margin-top: 20px;*/
+    width: 1230px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.xbox ul {
+    margin-top: 20px;
+    width: 1250px;
+    overflow: hidden;
+}
+
+.xbox ul li {
+    width: 230px;
+    height: 298px;
+    float: left;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.xbox ul li a {
+    width: 228px;
+    height: 298px;
+    float: left;
+    background: #fff;
+    border: #EFEFEF 1px solid;
+    display: block;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear
+}
+
+.xbox ul li a:hover {
+    border: #fff 1px solid;
+    -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    /*向上移动2px*/
+    transform: translate3d(0, -2px, 0);
+    /*-webkit-transform: scale(1.2);*/
+    /*transform: scale(1.2);*/
+}
+
+.xbox li:nth-last-child(-n+5) a:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.xbox ul li a h2 {
+    color: #262626;
+    font-size: 18px;
+}
+
+.xbox ul li a p {
+    font-size: 14px;
+    line-height: 60px;
+    color: #939393;
+}
+
+/*第二屏幕  结束*/
+/*第三屏幕page3  开始*/
+
+.bg_x {
+    background: url(../images/bg_c.jpg) center 0px no-repeat;
+}
+
+.h2_cm {
+    background: url(../images/classname2.png) center center no-repeat;
+}
+
+.box_cm {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.box_cm ul {
+    margin: 0 auto;
+    padding-top: 80px;
+    overflow: hidden;
+}
+
+.box_cm ul li {
+    width: 280px;
+    text-align: center;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.box_cm ul li h3, .box_cm ul li h3 a {
+    font-size: 18px;
+    padding: 30px 0px;
+    color: #222;
+}
+
+.box_cm ul li p {
+    font-size: 16px;
+    color: #8E8E8E;
+    line-height: 175%;
+}
+
+.box_cm ul li img {
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin: 0px 10px;
+}
+
+.box_cm ul li:hover img {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+}
+
+/*第三屏幕page3  结束*/
+/*第四屏幕page4  结束*/
+.h2_dt {
+    background: url(../images/classname3.png) center center no-repeat;
+}
+
+.box_dt {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0px auto;
+}
+
+.picScroll-left {
+    overflow: hidden;
+    position: relative;
+    padding-top: 90px;
+}
+
+/*bd*/
+.picScroll-left .bd {
+}
+
+.picScroll-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-left .bd ul li {
+    margin: 0 27px;
+    float: left;
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+    width: 350px;
+}
+
+.picScroll-left .bd ul li .pic {
+    position: relative;
+}
+
+.picScroll-left .bd ul li .pic img {
+    width: 350px;
+    height: 225px;
+    display: block;
+}
+
+.picScroll-left .bd ul li .pic span {
+    display: block;
+    height: 40px;
+    width: 122px;
+    background: url(../images/dt_title_bg.png) no-repeat;
+    line-height: 40px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 16px;
+    color: #fff;
+    text-indent: 8px;
+    text-align: left;
+}
+
+.picScroll-left .bd ul li .title {
+    line-height: 35px;
+    font-size: 18px;
+    text-align: left;
+    height: 35px;
+    padding: 6px 0px 0px 0px;
+}
+
+.picScroll-left .bd ul li .title a {
+    color: #222;
+}
+
+.picScroll-left .bd ul li p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 175%;
+    padding-right: 10px;
+    color: #A1A1A1
+}
+
+/*hd*/
+.picScroll-left .hd {
+    overflow: hidden;
+    padding: 30px 10px 0px 10px;
+}
+
+.picScroll-left .hd ul {
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 10px;
+    zoom: 1;
+    text-align: center;
+}
+
+.picScroll-left .hd ul li {
+    display: inline-block;
+    width: 34px;
+    height: 4px;
+    overflow: hidden;
+    margin-right: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background: #BFBFBF;
+}
+
+.picScroll-left .hd ul li.on {
+    background-position: 0 0;
+    background: #F51313;
+}
+
+/*第四屏幕page4  结束*/
+/*第五屏  page5  开始*/
+.hz {
+    background: #F1F1F1;
+}
+
+.h2_hz {
+    background: url(../images/classname4.png) center center no-repeat;
+    margin-top: 0;
+}
+
+.outBox {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.outBox .hd {
+    height: 140px;
+    line-height: 140px;
+    position: relative;
+}
+
+.outBox .hd ul {
+    padding-left: 150px;
+}
+
+.outBox .hd ul li {
+    float: left;
+    padding: 20px 20px 0 20px;
+    cursor: pointer;
+    width: 140px;
+    height: 140px;
+}
+
+.outBox .hd ul img {
+    width: 100%;
+}
+
+/*.outBox .hd ul li.on {*/
+/*padding-top: 0;*/
+/*height: 140px;*/
+/*}*/
+
+.outBox .hd ul li.on img {
+    width: 140px;
+    border-radius: 70px;
+    -webkit-box-shadow: 0 0 15px #b1b1b1;
+    box-shadow: 0 0 15px #b1b1b1;
+    -moz-box-shadow: 0 0 15px #b1b1b1;
+}
+
+.inBox {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.inBox p {
+    font-size: 30px;
+    color: #444;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 0px;
+}
+
+.dbb {
+    width: 1200px;
+    height: 231px;
+}
+
+/*第五屏  page5 结束*/
+/*fullpage主题部分  结束*/
+/*底部样式  开始*/
+.foot {
+    height: 231px;
+    background: #353535;
+}
+
+.footer {
+    height: 46px;
+    background: #262626;
+    text-align: center;
+    line-height: 46px;
+    color: #868686;
+}
+
+.copy {
+    width: 1200px;
+    margin: 0px auto;
+    height: 185px;
+    color: #fff;
+}
+
+.copy ul {
+    height: 185px;
+    padding-right: 5px;
+    float: left;
+    padding-top: 30px;
+}
+
+.copy ul.about {
+    width: 130px;
+}
+
+.copy ul span {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+
+.copy ul li {
+    height: 28px;
+    line-height: 28px;
+    color: #878787;
+    text-shadow: 1px 1px 2px #111;
+    font-size: 14px;
+}
+
+.copy ul li a {
+    color: #878787;
+}
+
+.copy ul li a:hover {
+    color: #fff;
+}
+
+.copy ul.cont {
+    width: 320px;
+    padding-left: 75px;
+    background: url(../images/icon-contact.gif) 75px 65px no-repeat;
+}
+
+.copy ul.cont li.f_ico {
+    padding-left: 20px;
+}
+
+.copy .line {
+    background: url(../images/foot_border.png) right 8px no-repeat;
+    width: 2px;
+    height: 185px;
+    overflow: hidden;
+    padding: 30px 0px 0px 0px;
+}
+
+.copy ul.sns {
+    padding: 30px 60px 0px 70px;
+    background: url(../images/icon-sns.gif) 70px 65px no-repeat;
+}
+
+.copy ul.sns li.sns_ico {
+    padding-left: 23px;
+}
+
+.info {
+    float: right;
+    width: 350px;
+    padding-top: 30px;
+}
+
+.info h2 {
+    height: 28px;
+    background: url(../images/foot_logo.gif) no-repeat;
+}
+
+.info p {
+    line-height: 28px;
+    color: #868686;
+    padding-top: 15px;
+}
+
+/*底部样式  结束*/
+
+/*产品与服务样式*/
+/*产品与服务样式*/
+
+
+/*返回顶部 开始*/
+.scroll {
+    width: 40px;
+    height: 36px;
+    background: url(../images/page2/top.png) no-repeat;
+    color: #fff;
+    line-height: 36px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+    font-size: 14px;
+}
+/*返回顶部结束*/

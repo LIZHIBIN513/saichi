@@ -1,0 +1,69 @@
+.top_e {
+    height: 400px;
+    text-align: center;
+    background: url(../images/page4/top_e.jpg) center 0px no-repeat #333333;
+}
+
+
+.link_box {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0px auto 80px auto;
+}
+.wzdh {
+    background: url(../images/page4/link_title_1.png) center center no-repeat;
+
+}
+
+.ssyq {
+    background: url(../images/page4/link_title_2.png) center center no-repeat;
+
+}
+
+.yxpt {
+    background: url(../images/page4/link_title_3.png) center center no-repeat;
+
+}
+
+.mhwz {
+    background: url(../images/page4/link_title_4.png) center center no-repeat;
+}
+
+.dzsw {
+    background: url(../images/page4/link_title_5.png) center center no-repeat;
+
+}
+
+
+.link_title {
+    text-align: center;
+    height: 150px;
+}
+
+.link_ico {
+    overflow: hidden;
+    text-align: center;
+}
+
+.link_ico a {
+    width: 295px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 35px;
+    /*margin: 0px;*/
+}
+
+.link_ico a:hover, .link_ico a.hover {
+    background: url(../images/page4/link_ico.png) center bottom no-repeat;
+}
+
+.link_ico a img {
+    vertical-align: middle;
+}
+
+#tab{
+    height: 188px;
+}
+
+

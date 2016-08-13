@@ -1,0 +1,52 @@
+.top_c {
+    height: 400px;
+    text-align: center;
+    background: url(../images/page3/top_c.jpg) center 0px no-repeat #51D2F2;
+}
+
+.pp {
+    height: 660px;
+    background: url(../images/page3/pptg.gif) center 50px no-repeat;
+    width: 100%;
+}
+
+.wz {
+    height: 950px;
+    background: url(../images/page3/wztg.gif) center 0px no-repeat;
+    width: 100%;
+}
+
+.wz_margin {
+    margin-top: -100px;
+    width: 100%;
+}
+
+.ds {
+    height: 680px;
+    background: url(../images/page3/dstg.gif) center 0px no-repeat;
+    width: 100%;
+}
+
+.yx {
+    height: 460px;
+    background: url(../images/page3/yxtg.gif) center 0px no-repeat;
+    width: 100%;
+}
+
+.pptg {
+    background: url(../images/page3/ibox_h3_bg7.png) center center no-repeat;
+}
+
+.wztg {
+    background: url(../images/page3/ibox_h3_bg8.png) center center no-repeat;
+}
+
+.dstg {
+    background: url(../images/page3/ibox_h3_bg9.png) center center no-repeat;
+}
+
+.yxtg {
+    background: url(../images/page3/ibox_h3_bg10.png) center center no-repeat;
+}
+
+

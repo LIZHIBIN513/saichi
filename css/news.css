@@ -1,0 +1,93 @@
+
+.dt_tabs {
+    height: 400px;
+    width: 100%;
+    background: url(../images/page5/news_top.jpg) center center no-repeat;
+    margin-bottom: 50px;
+}
+
+.list {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.list dl {
+    border-bottom: #ECECEC 1px solid;
+    overflow: hidden;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.list .pic {
+    width: 350px;
+    height: 225px;
+    float: left;
+}
+
+.list .pic img {
+    width: 350px;
+    height: 225px;
+    overflow: hidden;
+}
+
+.list dt {
+    width: 820px;
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    padding-left: 30px;
+}
+
+.list dt h2 {
+    float: left;
+    width: 80%;
+    font-size: 20px;
+}
+
+.list dt h2 a {
+    color: red;
+}
+
+.list dt span {
+    width: 20%;
+    float: left;
+    text-align: right;
+    color: #A5A5A5;
+}
+
+.list dd {
+    padding-left: 30px;
+    float: left;
+    width: 820px;
+    line-height: 26px;
+    font-size: 16px;
+    color: #202020;
+    height: 145px;
+}
+
+.share {
+    width: 810px;
+    padding-left: 30px;
+    float: left;
+}
+
+.bdsharebuttonbox {
+    float: right;
+}
+
+.page {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.page a {
+    display: block;
+    width: 500px;
+    height: 50px;
+    margin: 0px auto;
+    background: #E0E0E0;
+    font-size: 18px;
+    line-height: 50px;
+    color: #353535;
+}

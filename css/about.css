@@ -1,0 +1,259 @@
+.top_d {
+    height: 400px;
+    text-align: center;
+    background: url(../images/top_d.jpg) center 0px no-repeat #fff;
+}
+
+.ibox {
+    width: 1200px;
+    margin: 0px auto 50px auto;
+}
+
+.ibox_h3 {
+    text-align: center;
+    height: 140px;
+}
+
+.scgk {
+    background: url(../images/page6/ibox_h3_bg11.png) center center no-repeat;
+}
+
+.qywh {
+    background: url(../images/page6/ibox_h3_bg12.png) center center no-repeat;
+}
+
+.rycj {
+    background: url(../images/page6/ibox_h3_bg13.png) center center no-repeat;
+}
+
+.lxfs {
+    background: url(../images/page6/ibox_h3_bg14.png) center center no-repeat;
+}
+
+.gxcp {
+    background: url(../images/page6/ibox_h3_bg15.png) center center no-repeat;
+}
+
+.hszw {
+    background: url(../images/page6/ibox_h3_bg16.png) center center no-repeat;
+}
+
+.about_box {
+    color: #262626;
+}
+
+.cp_box, .about_box {
+    width: 1200px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.about_box h5 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about_box h5 p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.about_box p {
+    font-size: 16px;
+    line-height: 257%;
+}
+
+.zpc {
+    overflow: hidden;
+}
+
+.zpc ul li {
+    float: left;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+.zpinfo {
+    width: 350px;
+    height: 360px;
+    background: #40A3FF;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.zpinfo h3 {
+    font-size: 24px;
+}
+
+.zpinfo p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 188%;
+}
+
+/*.ry {*/
+/*height: 400px;*/
+/*background: url(../images/jt.gif) center center no-repeat;*/
+/*margin- bottom: 20px;*/
+/*}*/
+
+.lx {
+    width: 1200px;
+    overflow: hidden;
+    margin: 20px 0px;
+}
+
+.lx ul {
+    height: 260px;
+    background: url(../images/page6/lx.gif) no-repeat;
+}
+
+.lx ul li {
+    float: left;
+    width: 285px;
+    height: 97px;
+    margin-right: 15px;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 163px;
+    line-height: 150%;
+}
+
+.gxcp_bg {
+    height: 360px;
+    background: url(../images/page6/cp.jpg) center center no-repeat;
+}
+
+.zw {
+    width: 1200px;
+    overflow: hidden;
+}
+
+.zw ul {
+    width: 1300px;
+    height: 120px;
+}
+
+.zw ul li {
+    float: left;
+    width: 120px;
+    height: 120px;
+    background: #E4E4E4;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.zw ul li.hover, .zw ul li:hover {
+    background: #40A3FF;
+    color: #fff;
+}
+
+.zw_info {
+    margin-top: 40px;
+    padding-left: 15px;
+}
+
+.zw_box {
+    display: none;
+    height: 300px;
+}
+
+.zw_title {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.zw_title a {
+    color: #181818;
+    cursor: pointer;
+}
+
+.zw_title a:hover, .zw_title a.hover {
+    color: #3FA3FF;
+}
+
+.zw_box p {
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.rollBox img {
+    border: none;
+}
+
+.rollBox {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.rollBox .Cont {
+    width: 1120px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.rollBox .ScrCont {
+    width: 40000px;
+}
+
+.rollBox .Cont .pic { /*width:280px;*/
+    float: left;
+    text-align: center;
+    padding-right: 0px;
+}
+
+* + html .rollBox .Cont .pic {
+    width: 280px;
+    float: left;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.rollBox .Cont .pic img {
+    display: block;
+    margin: 0 auto;
+}
+
+.rollBox .Cont .pic p {
+    line-height: 26px;
+    color: #505050;
+}
+
+.rollBox .Cont a:link, .rollBox .Cont a:visited {
+    color: #626466;
+    text-decoration: none;
+}
+
+.rollBox .Cont a:hover {
+    color: #f00;
+    text-decoration: underline;
+}
+
+.rollBox #List1, .rollBox #List2 {
+    float: left;
+}
+
+.img1, .img2, .Cont {
+    float: left;
+}
+
+.img1, .img2 {
+    width: 40px;
+    display: block;
+    cursor: pointer;
+    height: 230px;
+}
+
+a.img1 {
+    background: url(../images/page6/left.png) 0px center no-repeat;
+}
+
+a.img2 {
+    background: url(../images/page6/right.png) 0px center no-repeat;
+}
+
